@@ -1,0 +1,18 @@
+,coef,pval,no.of countries
+C1_Schoolclosing,-0.0901087800509222,0.0,1.0
+H3_Contacttracing,-0.08459836054518761,0.0,1.0
+H2_Testingpolicy,-0.085093373526681,0.0,1.0
+H1_Publicinformationcampaigns,-0.07520663162185934,0.0,1.0
+E4_Internationalsupport,-0.07287950361511053,0.0,1.0
+E3_Fiscalmeasures,-0.07325081967473865,0.0,1.0
+E2_Debtcontractrelief,-0.07114975202682576,0.0,1.0
+H4_Emergencyinvestmentinhealthcare,-0.07324575623144655,0.0,1.0
+E1_Incomesupport,-0.07114975202682604,0.0,1.0
+C7_Restrictionsoninternalmovement,-0.0839083727572392,0.0,1.0
+C6_Stayathomerequirements,-0.08244055207562691,0.0,1.0
+C5_Closepublictransport,-0.0790336417429858,0.0,1.0
+C4_Restrictionsongatherings,-0.08105850788808192,0.0,1.0
+C3_Cancelpublicevents,-0.08960110592402284,0.0,1.0
+C2_Workplaceclosing,-0.08784333619544445,0.0,1.0
+C8_Internationaltravelcontrols,-0.08705700923010586,0.0,1.0
+H5_Investmentinvaccines,-0.0733388359143646,0.0,1.0
