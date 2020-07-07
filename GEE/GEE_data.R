@@ -15,11 +15,17 @@ confirmed_df
 
 
 start_date = '2020-01-01'
+count = 0
 for( country in country_list$CountryCode){
-  data_country = data[country]
-  print(head(data_country))
+  if (count == 0){
+    data_global = data[[country]]
+  }else{
+    data_global = rbind(data_global, data[[country]])
+  }
+  count = count + 1
 }
 
+write.csv(data_global, 'oxford_globa.csv')
 write.csv( data$KOR , 'oxford_korea.csv')
 write.csv( data$AUS , 'oxford_aus.csv')
 write.csv( data$GBR , 'oxford_gbr.csv')
