@@ -1,7 +1,7 @@
 library(geepack)
 library(dplyr)
 
-setwd("/data/member/twgoo/COVID-19/trajectory_analysis/")
+setwd("/Users/taehyun/Desktop/covid_19")
 
 ######################################
 # Note. 2020.07.08
@@ -16,12 +16,11 @@ setwd("/data/member/twgoo/COVID-19/trajectory_analysis/")
 ######################################
 
 # Loading Data 
-data_add = read.csv("data_additive_measure_rev.csv")
-data_mult = read.csv("data_multiplicative_measure_rev.csv")
+data_add = read.csv("data_additive_measure.csv")
+data_mult = read.csv("data_multiplicative_measure.csv")
 
 # Select Policy Variables & Data
 variables = colnames(data_add)[2:18]
-variables
 names_vec = c("C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "E1", "E2", "E3", "E4", "H1", "H2", "H3", "H4", "H5")
 
 # data = data_add
